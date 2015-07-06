@@ -1,13 +1,21 @@
 This is Spring_DATA_JPA quick start.
+============
 
-How to work this program ?
+### Environment
+- java             1.8.
+- h2 database      1.4.186
+- lombok           1.16.2
+- spring-boot      1.2.4.RELEASE
+- spring-data-jps  1.7.2.RELEASE
 
-  1. H2 database start.
-     You should read a property file(application.yml) !!!
+### How to work this program ?
+
+  1. H2 database start. You should read a property file(application.yml) !!!
   2. Run this Application Server
 
 
-API
+### API
+""'
   [Post] /student
   [Param]
       {
@@ -16,8 +24,8 @@ API
       }
   [Result]
       { "id" : 1 }
-
-
+""'
+""'
   [GET] /student/{studentId}
   [Result]
       {
@@ -27,8 +35,8 @@ API
               "major": "Computer Science"
           }
       }
-
-
+""'
+""'
   [PUT] /student/{studentId}
   [Param]
       {
@@ -37,9 +45,9 @@ API
       }
   [Result]
       success
-
-
+""'
+""'
   [DELETE] /student/{studentId}
   [Result]
       success
-
+""'
