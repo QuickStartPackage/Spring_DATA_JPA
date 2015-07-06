@@ -10,7 +10,7 @@
 
 ### How to work this program ?
 
-  1. H2 database start. You should read a property file(application.yml) !!!
+  1. H2 database start. You should read a property file (application.yml) !!!
   2. Run this Application Server
 
 
