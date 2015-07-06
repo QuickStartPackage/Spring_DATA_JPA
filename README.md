@@ -15,7 +15,7 @@
 
 
 ### API
-`
+
     [Post] /student <br>
     [Param]
         {
@@ -24,11 +24,11 @@
         }
     [Result] <br>
         { "id" : 1 }
-`
 
-  [GET] /student/{studentId}
-  [Result]
-      {
+
+>  [GET] /student/{studentId}
+>  [Result]
+>>      {
           "student": {
               "id": 1,
               "name": "Hong gil dong",
