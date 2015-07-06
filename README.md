@@ -26,30 +26,27 @@
         { "id" : 1 }
 
 
-
-  [GET] /student/{studentId}
-  [Result]
-      {
+    [GET] /student/{studentId}
+    [Result]
+        {
           "student": {
               "id": 1,
               "name": "Hong gil dong",
               "major": "Computer Science"
           }
-      }
+        }
 
 
-
-  [PUT] /student/{studentId}
-  [Param]
-      {
-        "name" : "Hong gil dong",
-        "major" : "Computer Engineering"
-      }
-  [Result]
-      success
-
+    [PUT] /student/{studentId}
+    [Param]
+        {
+          "name" : "Hong gil dong",
+          "major" : "Computer Engineering"
+        }
+    [Result]
+        success
 
 
-  [DELETE] /student/{studentId}
-  [Result]
-      success
+    [DELETE] /student/{studentId}
+    [Result]
+        success
