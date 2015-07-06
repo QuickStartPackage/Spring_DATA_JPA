@@ -15,7 +15,7 @@ This is Spring_DATA_JPA quick start.
 
 
 ### API
-""'
+“`
   [Post] /student
   [Param]
       {
@@ -24,8 +24,8 @@ This is Spring_DATA_JPA quick start.
       }
   [Result]
       { "id" : 1 }
-""'
-""'
+“`
+“`
   [GET] /student/{studentId}
   [Result]
       {
@@ -35,8 +35,8 @@ This is Spring_DATA_JPA quick start.
               "major": "Computer Science"
           }
       }
-""'
-""'
+“`
+“`
   [PUT] /student/{studentId}
   [Param]
       {
@@ -45,9 +45,9 @@ This is Spring_DATA_JPA quick start.
       }
   [Result]
       success
-""'
-""'
+“`
+“`
   [DELETE] /student/{studentId}
   [Result]
       success
-""'
+“`
