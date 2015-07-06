@@ -25,7 +25,6 @@
     [Result]
         { "id" : 1 }
 “`
-----
 
   [GET] /student/{studentId}
   [Result]
@@ -36,7 +35,7 @@
               "major": "Computer Science"
           }
       }
-----
+
   [PUT] /student/{studentId}
   [Param]
       {
@@ -45,7 +44,7 @@
       }
   [Result]
       success
-----
+
   [DELETE] /student/{studentId}
   [Result]
       success
