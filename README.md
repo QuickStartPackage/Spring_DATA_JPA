@@ -16,13 +16,13 @@
 
 ### API
 `
-    [Post] /student;
+    [Post] /student <br>
     [Param]
         {
           "name" : "Hong gil dong",
           "major" : "Computer Science"
         }
-    [Result]
+    [Result] <br>
         { "id" : 1 }
 `
 
