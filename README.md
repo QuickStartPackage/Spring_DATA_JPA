@@ -8,10 +8,10 @@
 - spring-data-jps  1.7.2.RELEASE
 
 
-### How to work this program ?
+### How to work this program
 
-  1. H2 database start. You should read a property file (application.yml) !!!
-  2. Run this Application Server
+  1. H2 database start. You should read a property file.
+  2. Run this application server
 
 
 ### API
