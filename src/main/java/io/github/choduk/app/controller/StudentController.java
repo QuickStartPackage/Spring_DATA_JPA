@@ -21,7 +21,7 @@ public class StudentController {
     @RequestMapping(value = "/student", method= RequestMethod.POST)
     public StudentRegistResult create(@RequestBody StudentRegistParam registParam){
 
-        System.out.println("params = " + registParam);
+        System.out.println("param = " + registParam);
 
         Long id = studentService.addStudent(registParam);
 

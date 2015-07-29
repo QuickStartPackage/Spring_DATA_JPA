@@ -19,9 +19,9 @@ public class StudentService {
 
 
     @Transactional
-    public Long addStudent(StudentRegistParam params) {
+    public Long addStudent(StudentRegistParam param) {
 
-        Student student = convertStudent(params);
+        Student student = convertStudent(param);
 
         studentRepository.save(student);
 
