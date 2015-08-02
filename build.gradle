@@ -4,7 +4,6 @@ version '1.0-SNAPSHOT'
 ext {
     javaVersion = '1.8'
     h2Databases = '1.4.186'
-    queryDslVersion = '3.6.3'
     lombokVersion = '1.16.2'
 }
 buildscript {
@@ -32,13 +31,24 @@ configurations {
     compile.exclude module: 'spring-boot-starter-logging'
 }
 
+sourceSets {
+    test {
+        java {
+            srcDir 'src/test/java/unit'
+            srcDir 'src/test/java/integration'
+        }
+        resources.srcDir 'src/test/resources'
+    }
+}
+
 dependencies {
 
     compile "org.springframework.boot:spring-boot-starter-web"
     compile "org.springframework.boot:spring-boot-starter-actuator"
-
+    compile "org.springframework.boot:spring-boot-starter-test"
 
     compile "org.springframework.boot:spring-boot-starter-data-jpa"
     compile "com.h2database:h2:$h2Databases"
     compile "org.projectlombok:lombok:$lombokVersion"
+
 }
